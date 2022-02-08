@@ -1,0 +1,19 @@
+.about__text {
+  font-size: 18px;
+}
+
+.about__images {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__images img {
+  max-width: 500px;
+  height: 250px;
+}
+
+.about__images img:not(:first-child) {
+  margin: 0 5px;
+}

@@ -1,0 +1,32 @@
+.home__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 45px 0;        
+}
+.home__title {
+    margin: 0;
+    font-size: 45px;
+}
+.home__subtitle {
+    font-size: 20px;
+}
+.home__link {
+    text-decoration: none;
+}
+.home__button {
+    font-size: 20px;
+    width: 120px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
